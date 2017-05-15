@@ -1,0 +1,6 @@
+$('#slide_button').click(function() {
+    $('#slide').animate({
+        height: 'toggle'
+    }, 1500, function() {
+    });
+});
