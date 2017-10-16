@@ -1,7 +1,7 @@
-.backimage{
+#home-background-image{
 	background-image:url(Space.jpg) ;
 	background-repeat: no-repeat;
-	background-color:black;
+	background-color: #202020;
 	-webkit-background-size: 100% 100%;
 	-moz-background-size   : 100% 100%;
 	-o-background-size     : 100% 100%;
@@ -12,9 +12,9 @@
 }
 
 /* The navigation bar */
-.navbar {
+#home-navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #383838;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%;
@@ -23,7 +23,7 @@
 }
 
 /* Links inside the navbar */
-.navbar a {
+#home-navbar a {
 	font-family: arial;
 	font-size: 20px;
     float: right;
@@ -33,52 +33,54 @@
     padding: 14px 16px;
     text-decoration: none;
 }
-.navbar a:hover {
+
+#home-navbar a:hover {
     background-color: #00cc66;
 }
 
-.title{
-	font-family:arial;
-	font-size:30px;
-	color: white;
-	text-align: center;
+#home-title{
 	padding-top: 15%;
-}
 
-.subtitle{
 	font-family:arial;
-	font-size:16px;
+	font-size:36px;
 	color: white;
 	text-align: center;
 }
 
-.about{
-	padding-top: 35%;
+#home-subtitle{
 	font-family:arial;
-	font-size:30px;
+	font-size:18px;
 	color: white;
 	text-align: center;
-	
 }
 
-.about-details{
-	padding-left: 5%;
-	padding-bottom: 15%;
+#about-title{
+	padding-top: 30%;
+
+	font-family:arial;
+	font-size:60px;
+	color: white;
+	text-align: center;
+}
+
+#about-details{
+	margin-top: 5%;
+	padding-left: 10%;
 	text-align: left;
 	font-family:arial;
-	font-size:25px;
+	font-size:26px;
 	color: white;
+	width: 45%;
 }
 
-.aboutimage{
-	margin-left: 1080px;
+.about-image{
+	margin-left: 65%;
 	border-radius: 50%;
 }
 
-.border{
+.about-image-border{
 	border-color: #00cc66;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
 }
-
